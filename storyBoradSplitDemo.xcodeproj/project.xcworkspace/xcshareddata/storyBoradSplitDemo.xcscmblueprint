@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "858B73A74A092063D9865968E3DF4172FDAF5939",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "858B73A74A092063D9865968E3DF4172FDAF5939" : 0,
+    "BC3F4F30019F96A96D8082EAE90F7861E9195600" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D61626BC-7D38-41E6-B1B6-45EAB18150E2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "858B73A74A092063D9865968E3DF4172FDAF5939" : "storyBoradSplitDemo\/",
+    "BC3F4F30019F96A96D8082EAE90F7861E9195600" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "storyBoradSplitDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "storyBoradSplitDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wangdengliang\/storyBoradSplit.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "858B73A74A092063D9865968E3DF4172FDAF5939"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wangdenliang\/study_note.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BC3F4F30019F96A96D8082EAE90F7861E9195600"
+    }
+  ]
+}

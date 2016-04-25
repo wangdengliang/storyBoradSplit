@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="9ab-dI-VzO">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
@@ -25,7 +25,7 @@
                                 </constraints>
                                 <state key="normal" title="blue"/>
                                 <connections>
-                                    <segue destination="zgK-HL-Uwz" kind="modal" id="3jC-2S-DaX"/>
+                                    <segue destination="zgK-HL-Uwz" kind="push" id="jd1-YG-30o"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r2g-I8-pXX">
@@ -36,7 +36,7 @@
                                 </constraints>
                                 <state key="normal" title="red"/>
                                 <connections>
-                                    <segue destination="5I0-9N-oj5" kind="modal" id="NFV-Mw-h6e"/>
+                                    <segue destination="5I0-9N-oj5" kind="push" id="EXC-KY-JvY"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IRS-Bg-Cfi">
@@ -47,7 +47,7 @@
                                 </constraints>
                                 <state key="normal" title="yellow"/>
                                 <connections>
-                                    <segue destination="7bc-W0-XDm" kind="modal" id="zAH-Pa-Dnr"/>
+                                    <segue destination="7bc-W0-XDm" kind="push" id="c28-bI-HfV"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -61,9 +61,26 @@
                             <constraint firstItem="r2g-I8-pXX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xaX-S5-ID5"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="BJ6-K4-Nj4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="lLh-Qt-EQ9">
+            <objects>
+                <navigationController id="9ab-dI-VzO" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="pPJ-jY-7EO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="dhu-yp-gzm"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QZw-mz-g2I" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-29" y="1150"/>
         </scene>
         <!--UIViewController-ytW-7K-vyW-->
         <scene sceneID="gAx-c9-jTc">
@@ -78,7 +95,9 @@
         <!--yellowViewController-->
         <scene sceneID="onV-y1-M97">
             <objects>
-                <viewControllerPlaceholder storyboardName="secondStoryBorad" referencedIdentifier="yellowViewController" id="7bc-W0-XDm" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="secondStoryBorad" referencedIdentifier="yellowViewController" id="7bc-W0-XDm" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="67Y-QM-PPU"/>
+                </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c6q-BF-B3v" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="888.5" y="522"/>
