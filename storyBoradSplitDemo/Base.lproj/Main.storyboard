@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="chC-bQ-0r4">
+                                <rect key="frame" x="285" y="235" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="30" id="JHQ-My-feT"/>
+                                    <constraint firstAttribute="height" constant="30" id="ow0-jF-LgW"/>
+                                </constraints>
+                                <state key="normal" title="blue"/>
+                                <connections>
+                                    <segue destination="zgK-HL-Uwz" kind="modal" id="3jC-2S-DaX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r2g-I8-pXX">
+                                <rect key="frame" x="285" y="335" width="30" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="k7Q-nJ-Oew"/>
+                                    <constraint firstAttribute="width" constant="30" id="tAf-cB-ui1"/>
+                                </constraints>
+                                <state key="normal" title="red"/>
+                                <connections>
+                                    <segue destination="5I0-9N-oj5" kind="modal" id="NFV-Mw-h6e"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IRS-Bg-Cfi">
+                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="1sz-Ew-cBS"/>
+                                    <constraint firstAttribute="height" constant="30" id="Eu7-cE-7pZ"/>
+                                </constraints>
+                                <state key="normal" title="yellow"/>
+                                <connections>
+                                    <segue destination="7bc-W0-XDm" kind="modal" id="zAH-Pa-Dnr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IRS-Bg-Cfi" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="AK3-Qi-NZ0"/>
+                            <constraint firstItem="r2g-I8-pXX" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="50" id="AK6-ws-4Lx"/>
+                            <constraint firstItem="chC-bQ-0r4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hO3-80-VVg"/>
+                            <constraint firstItem="chC-bQ-0r4" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-50" id="khD-FA-kpr"/>
+                            <constraint firstItem="IRS-Bg-Cfi" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="odh-kA-cmy"/>
+                            <constraint firstItem="r2g-I8-pXX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xaX-S5-ID5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+        <!--UIViewController-ytW-7K-vyW-->
+        <scene sceneID="gAx-c9-jTc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="secondStoryBorad" referencedIdentifier="UIViewController-ytW-7K-vyW" id="zgK-HL-Uwz" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="78X-aP-7Aq"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lds-OZ-RKW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928" y="240"/>
+        </scene>
+        <!--yellowViewController-->
+        <scene sceneID="onV-y1-M97">
+            <objects>
+                <viewControllerPlaceholder storyboardName="secondStoryBorad" referencedIdentifier="yellowViewController" id="7bc-W0-XDm" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c6q-BF-B3v" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="888.5" y="522"/>
+        </scene>
+        <!--UIViewController-9Gu-Fk-eAf-->
+        <scene sceneID="Gue-49-zPg">
+            <objects>
+                <viewControllerPlaceholder storyboardName="secondStoryBorad" referencedIdentifier="UIViewController-9Gu-Fk-eAf" id="5I0-9N-oj5" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Qj2-kR-dUE"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JVh-HF-enb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928" y="907"/>
+        </scene>
+    </scenes>
+</document>
