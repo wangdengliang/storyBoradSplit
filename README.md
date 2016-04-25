@@ -14,7 +14,7 @@
 ---
 *1.在被引用的storyBorad中找到被引用的viewcontroller添加storyborad id 并勾选使用storyborad id 选项
 
-*2.在引用使用的storyBorad中添加storyborad Reference对象实例，这个对象有3个属性，storyborad(被引用的storyBorad名称)，referenced ID（被引用的viewController的storyborad id）, bundle（被引用storyborad的路径，如果路径和main。storyBorad路径相同，可以不填）,
+*2.在引用使用的storyBorad中添加storyborad Reference对象实例，[](https://github.com/wangdengliang/storyBoradSplit/blob/master/storyBoradSplitDemo/Assets.xcassets/reference.imageset/reference.png)这个对象有3个属性，storyborad(被引用的storyBorad名称)，referenced ID（被引用的viewController的storyborad id）, bundle（被引用storyborad的路径，如果路径和main。storyBorad路径相同，可以不填）,
 
 *3.将连线连向storyborad Reference。
 
